@@ -3,5 +3,5 @@
     msg: newrelic_license_key is not defined
   when: newrelic_license_key is not defined
 
-- include: install.yml
-- include: ini.yml
+- import_tasks: install.yml
+- import_tasks: ini.yml
